@@ -7,6 +7,7 @@
   padding: 10px 20px;
   margin: 0 10px 60px;
   border-radius: 10px;
+  z-index: 1000;
 }
 .header a {
   font-size: 1.5rem;
@@ -43,17 +44,19 @@
   margin-top: 80px;
   border-radius: 10px;
 }
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #3447ebd4;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin: 0px 10px 35px;
     border-radius: 10px;
-    margin-right: 20px;
+    z-index: 1000;
+    margin-left: 0;
   }
   .header a {
     font-size: 1.5rem;
@@ -71,7 +74,7 @@
     position: relative;
   }
   .header span {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     width: 20px;
     height: 20px;
     line-height: 20px;

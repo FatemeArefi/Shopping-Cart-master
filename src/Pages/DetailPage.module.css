@@ -53,7 +53,7 @@
 .information a svg {
   margin-right: 10px;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 320px) {
   .container {
     display: flex;
     align-items: flex-start;
@@ -95,6 +95,64 @@
     margin-right: 5px;
   }
 
+  .information div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .information a {
+    display: flex;
+    align-items: center;
+    background-color: #1331dcea;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 12px;
+  }
+  .information a svg {
+    margin-right: 10px;
+  }
+} */
+@media (max-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+  }
+  .container img {
+    width: 150px;
+    padding: 30px 25px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 8px 0;
+  }
+  .information {
+    width: 100%;
+    border: 2px solid #1331dcea;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  .information h3 {
+    color: #1331dcea;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .description {
+    color: grey;
+    width: 90%;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
+  .category {
+    margin-bottom: 5px;
+  }
+  .category svg,
+  .information span svg {
+    color: #1331dcea;
+    margin-right: 5px;
+  }
   .information div {
     display: flex;
     justify-content: space-around;
