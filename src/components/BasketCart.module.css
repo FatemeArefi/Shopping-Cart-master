@@ -32,3 +32,44 @@
   border-radius: 8px;
   cursor: pointer;
 }
+@media (max-width: 480px) {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px dashed #e2e2e2;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+  .card p {
+    display: flex;
+    font-size: 0.75rem;
+    padding-left: 15px;
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  .actions span {
+    width: 10px;
+    text-align: center;
+    margin: 0 2px;
+  }
+  .actions button {
+    background-color: #065cbe;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    padding: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}

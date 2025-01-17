@@ -53,3 +53,61 @@
 .information a svg {
   margin-right: 10px;
 }
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    align-items: flex-start;
+    min-height: 500px;
+    width: 80%;
+  }
+  .container img {
+    width: 150px;
+    padding: 30px 25px;
+    background-color: #fff;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 50px;
+    margin: 8px;
+  }
+  .information {
+    width: 70%;
+    border: 2px solid #c6e5f4e7;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+  }
+  .information h3 {
+    color: #1331dcea;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .description {
+    color: grey;
+    width: 200px;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+  }
+  .category {
+    margin-bottom: 5px;
+  }
+  .category svg,
+  .information span svg {
+    color: #1331dcea;
+    margin-right: 5px;
+  }
+
+  .information div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .information a {
+    display: flex;
+    align-items: center;
+    background-color: #1331dcea;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 12px;
+  }
+  .information a svg {
+    margin-right: 10px;
+  }
+}

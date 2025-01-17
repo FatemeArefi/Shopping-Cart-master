@@ -7,10 +7,12 @@ function Layout({ children }) {
   return (
     <>
       <header className={styles.header}>
-        <Link to="/products">Shopping Site Name</Link>
+        <Link to="/products">Site Name</Link>
         <Link to="checkout">
-          <PiShoppingCartSimpleBold />
-          {!!state.itemsCounter && <span>{state.itemsCounter}</span>}
+          <div>
+            <PiShoppingCartSimpleBold />
+            {!!state.itemsCounter && <span>{state.itemsCounter}</span>}
+          </div>
         </Link>
       </header>
       {children}

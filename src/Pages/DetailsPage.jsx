@@ -24,18 +24,17 @@ function DetailsPage() {
           <SiOpenproject />
           {productDetails.description}
         </p>
-        <div>
-          <p className={styles.category}>{productDetails.category}</p>
+        <div></div>
+        <p className={styles.category}>{productDetails.category}</p>
 
-          <span className={styles.peice}>
-            <IoMdPricetag />
-            {productDetails.price}$
-          </span>
-          <Link to="/products">
-            <FaArrowLeft />
-            <span>Back to shop</span>
-          </Link>
-        </div>
+        <span className={styles.peice}>
+          <IoMdPricetag />
+          {productDetails.price}$
+        </span>
+        <Link to="/products">
+          <FaArrowLeft />
+          <span>Back to shop</span>
+        </Link>
       </div>
     </div>
   );
